@@ -10,9 +10,8 @@
 		B8281B491D113DF200E9FA1F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B8281B481D113DF200E9FA1F /* main.m */; };
 		B8281B4C1D113DF200E9FA1F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B8281B4B1D113DF200E9FA1F /* AppDelegate.m */; };
 		B8281B4F1D113DF200E9FA1F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8281B4E1D113DF200E9FA1F /* ViewController.m */; };
-		B8281B521D113DF200E9FA1F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8281B501D113DF200E9FA1F /* Main.storyboard */; };
 		B8281B541D113DF200E9FA1F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8281B531D113DF200E9FA1F /* Assets.xcassets */; };
-		B8281B571D113DF200E9FA1F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8281B551D113DF200E9FA1F /* LaunchScreen.storyboard */; };
+		B84689901D125FA600FFCD14 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B84689921D125FA600FFCD14 /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +21,10 @@
 		B8281B4B1D113DF200E9FA1F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B8281B4D1D113DF200E9FA1F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		B8281B4E1D113DF200E9FA1F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		B8281B511D113DF200E9FA1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B8281B531D113DF200E9FA1F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B8281B561D113DF200E9FA1F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8281B581D113DF200E9FA1F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B84689911D125FA600FFCD14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B84689931D125FBE00FFCD14 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,9 +61,7 @@
 				B8281B4B1D113DF200E9FA1F /* AppDelegate.m */,
 				B8281B4D1D113DF200E9FA1F /* ViewController.h */,
 				B8281B4E1D113DF200E9FA1F /* ViewController.m */,
-				B8281B501D113DF200E9FA1F /* Main.storyboard */,
 				B8281B531D113DF200E9FA1F /* Assets.xcassets */,
-				B8281B551D113DF200E9FA1F /* LaunchScreen.storyboard */,
 				B8281B581D113DF200E9FA1F /* Info.plist */,
 				B8281B471D113DF200E9FA1F /* Supporting Files */,
 			);
@@ -74,6 +71,7 @@
 		B8281B471D113DF200E9FA1F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B84689921D125FA600FFCD14 /* Localizable.strings */,
 				B8281B481D113DF200E9FA1F /* main.m */,
 			);
 			name = "Supporting Files";
@@ -123,6 +121,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = B8281B3B1D113DF200E9FA1F;
 			productRefGroup = B8281B451D113DF200E9FA1F /* Products */;
@@ -139,9 +138,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B8281B571D113DF200E9FA1F /* LaunchScreen.storyboard in Resources */,
 				B8281B541D113DF200E9FA1F /* Assets.xcassets in Resources */,
-				B8281B521D113DF200E9FA1F /* Main.storyboard in Resources */,
+				B84689901D125FA600FFCD14 /* Localizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,20 +159,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B8281B501D113DF200E9FA1F /* Main.storyboard */ = {
+		B84689921D125FA600FFCD14 /* Localizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				B8281B511D113DF200E9FA1F /* Base */,
+				B84689911D125FA600FFCD14 /* en */,
+				B84689931D125FBE00FFCD14 /* zh-Hans */,
 			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B8281B551D113DF200E9FA1F /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B8281B561D113DF200E9FA1F /* Base */,
-			);
-			name = LaunchScreen.storyboard;
+			name = Localizable.strings;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -184,6 +176,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -229,6 +222,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -268,10 +262,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = BadMe/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = come.yanming.BadMe;
+				PRODUCT_BUNDLE_IDENTIFIER = come.fanyanming.BadMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -280,10 +275,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = BadMe/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = come.yanming.BadMe;
+				PRODUCT_BUNDLE_IDENTIFIER = come.fanyanming.BadMe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -307,6 +303,7 @@
 				B8281B5D1D113DF200E9FA1F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
